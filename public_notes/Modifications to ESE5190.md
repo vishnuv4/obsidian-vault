@@ -21,12 +21,15 @@ The lab shall walk students through communication between two XMINIs.
 
 ### Notes on requirements
 
+- The sercoms lab has to be before Pong, otherwise students will just use the SPI code from Pong and won't do it themselves.
 - Perhaps the serial part of WS3 can be removed. 
 	- While I appreciate what it's trying to teach, students don't really use NRZ encoding and we can probably allocate those points to something more fundamental.
 - Instead, we can maybe go a bit more into depth about memory or the compilation/linking/loading process.
 	- While it's not useful for OTS micros, it can be incredibly important to know how code works with memory while working on embedded firmware for a custom IC, as opposed to an off-the-shelf IC.
 	- We can help them understand how to think about RAM, ROM, Flash, EEPROM - what the properties are of each memory, how code interacts with each, and how that determines what type of data is stored where.
 	- This kind of exercise is better suited to a worksheet than a lab anyway.
+- If 4 projects - SPI RX/TX, I2C RX/TX - is too much for students, we could give them one or two.
+- 
 
 ## Other topics that can be covered
 
